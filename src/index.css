@@ -44,6 +44,7 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
+  border: 2px solid red;
 }
 
 .inner-add-form {
@@ -194,6 +195,35 @@ input[type="checkbox"] {
   select,
   input {
     font-size: 1.5rem;
+  }
+
+  .actions button,
+  .list select {
+    font-size: 1.3rem;
+  }
+  .stats {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+  .add-form {
+    padding: 1.5rem 0.8rem;
+  }
+  .inner-add-form {
+    padding: 1rem 0;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  button,
+  select,
+  input {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
   }
 
   .actions button,
