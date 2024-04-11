@@ -44,7 +44,6 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
-  border: 2px solid red;
 }
 
 .inner-add-form {
